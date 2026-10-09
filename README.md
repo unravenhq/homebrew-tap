@@ -1,18 +1,33 @@
-# Unravenhq Tap
+# Unraven Homebrew Tap
 
-## How do I install these formulae?
+## Formulae
 
-`brew install unravenhq/tap/<formula>`
+| Formula | Description |
+|---|---|
+| `vault-cli` | Command-line interface for Unraven Vault (installs the `vault` command) |
 
-Or `brew tap unravenhq/tap` and then `brew install <formula>`.
+## Install
 
-Or, in a `brew bundle` `Brewfile`:
+```bash
+brew install unravenhq/tap/vault-cli
+```
+
+Or tap once and use the short name:
+
+```bash
+brew tap unravenhq/tap
+brew install vault-cli
+```
+
+Or in a `Brewfile`:
 
 ```ruby
 tap "unravenhq/tap"
-brew "<formula>"
+brew "vault-cli"
 ```
 
-## Documentation
+## Updating a formula
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew bump-formula-pr --url https://registry.npmjs.org/@unraven/vault-cli/-/vault-cli-<version>.tgz unravenhq/tap/vault-cli
+```
