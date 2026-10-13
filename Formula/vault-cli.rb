@@ -1,8 +1,8 @@
 class VaultCli < Formula
   desc "Command-line interface for Unraven Vault"
   homepage "https://www.npmjs.com/package/@unraven/vault-cli"
-  url "https://registry.npmjs.org/@unraven/vault-cli/-/vault-cli-1.0.3.tgz"
-  sha256 "5e16419edbe9fe8f5e64250cc165ab72e3bc3127a4500711d1bdd88c8cc99cb9"
+  url "https://registry.npmjs.org/@unraven/vault-cli/-/vault-cli-1.0.4.tgz"
+  sha256 "c49d334b041dcb0032346fd7421faf1648ff9f01b24248d7b03a399847c2e627"
   license "MIT"
 
   depends_on "node@24"
